@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <style>
+        .mininav {
+            font-size: 12.5px;
+        }
+
+        .aligncenter {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <!-- navbar items -->
+                <a class="navbar-item mininav">
+                    Seller
+                </a>
+                <a class="navbar-item mininav">
+                    Seller
+                </a>
+                <a class="navbar-item mininav">
+                    Seller
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <!-- navbar items -->
+                <a class="navbar-item mininav">
+                    help
+                </a>
+                <a class="navbar-item mininav">
+                    Sign in
+                </a>
+                <a class="navbar-item mininav">
+                    Register
+                </a>
+            </div>
+        </div>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <input class="input is-primary" type="text" placeholder="Search">
+                &nbsp;
+                <button class="button is-primary">Search</button>
+                &nbsp;
+                <div class="select">
+                    <select>
+                        <option>All categories</option>
+                        <option>X</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container is-max-desktop">
+            <div class="is-multiline columns is-variable is-2">
+                <!-- Start สินค้า -->
+                <div id="card_product" class="column is-one-quarter">
+                    <a href="ลิงค์สินค้า">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-1by1"><img
+                                        src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                                        alt="Placeholder image"></figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p id="title" class="title is-4">Google Home</p>
+                                        <p class="subtitle is-6 has-text-danger">3290 บาท</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End สินค้า -->
+
+
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>MarketPlace</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</body>
+
+</html>

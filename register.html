@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <style>
+        .aligncenter {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <h1 class="title">Register</h1>
+        <p class="aligncenter">Create an account or&nbsp;<a href="">sign in to {{ title }}</a></p>
+        <br>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="First Name">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="date" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="control">
+                <label class="radio">
+                    <input type="radio" name="rsvp">
+                    Male
+                </label>
+                <label class="radio">
+                    <input type="radio" name="rsvp">
+                    Female
+                </label>
+                <label class="radio">
+                    <input type="radio" name="rsvp">
+                    Others
+                </label>
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="Username">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="Password">
+            </div>
+        </div>
+
+        <div class="columns aligncenter">
+            <div class="column is-4">
+                <input class="input is-primary" type="text" placeholder="Confirm Password">
+            </div>
+        </div>
+
+        <center><button class="button is-primary">Register</button></center>
+        <br>
+
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>MarketPlace</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</body>
+
+</html>
