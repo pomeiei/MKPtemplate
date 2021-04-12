@@ -82,9 +82,9 @@
                 </a>
             </div>
 
-            
+
         </nav>
-        
+
 
 
         <div class="container is-max-desktop">
@@ -94,23 +94,58 @@
                     <aside class="menu">
                         <p class="menu-label">
                             หน้าหลัก
-                          </p>
-                          <ul class="menu-list">
-                            <li><a href="rent.html">เช่าเปิดร้าน</a></li>
-                            <li><a href="detail.html">กรอกข้อมูลร้านค้า</a></li>
-                          </ul>
-                        <p class="menu-label">
-                          สินค้า
                         </p>
                         <ul class="menu-list">
-                          <li><a href="add.html">เพิ่มสินค้า</a></li>
-                          <li><a href="edit.html">แก้ไขสินค้า</a></li>
-                          <li><a href="delete.html">ลบสินค้า</a></li>
+                            <li><a href="rent.html">เช่าเปิดร้าน</a></li>
+                            <li><a href="detail.html">กรอกข้อมูลร้านค้า</a></li>
                         </ul>
-                      </aside>
+                        <p class="menu-label">
+                            สินค้า
+                        </p>
+                        <ul class="menu-list">
+                            <li><a href="add.html">เพิ่มสินค้า</a></li>
+                            <li><a href="editanddelete.html">แก้ไข/ลบสินค้า</a></li>
+                        </ul>
+                    </aside>
                 </div>
                 <div class="column is-two-thirds notification is-primary is-light">
-                    
+                    <div class="column is-full">
+                        
+                        <div class="file is-info is-boxed aligncenter">
+                            <label class="file-label">
+                              <input class="file-input" type="file" name="resume">
+                              <span class="file-cta">
+                                <span class="file-icon">
+                                  <i class="fas fa-cloud-upload-alt"></i>
+                                </span>
+                                <span class="file-label">
+                                  Upload pic…
+                                </span>
+                              </span>
+                            </label>
+                          </div>
+
+                        ชื่อสินค้า<input class="input" type="text" placeholder="ชื่อสินค้า">
+                        <div class="columns">
+                            <div class="column">
+                                ราคา<input class="input" type="text" placeholder="ราคา">
+                            </div>
+                            <div class="column">
+                                ราคาโปรโมชั่น *ใส่หรือไม่ใส่ก็ได้*<input class="input" type="text" placeholder="ราคาโปรโมชั่น">
+                            </div>
+                        </div>
+                        รายละเอียดสินค้า<textarea class="textarea" placeholder="รายละเอียดสินค้า" rows="5"></textarea>
+                        <br>
+                        <div class="select is-primary">
+                            <select>
+                              <option>Select categories</option>
+                              <option>XXX</option>
+                            </select>
+                          </div>
+                        <hr>
+                        <button class="button is-warning">เพิ่ม</button>
+
+                    </div>
                 </div>
             </div>
 
