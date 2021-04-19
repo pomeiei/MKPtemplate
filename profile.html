@@ -29,7 +29,7 @@
         <div class="navbar-menu">
             <div class="navbar-start">
                 <!-- navbar items -->
-                
+
             </div>
 
             <div class="navbar-end">
@@ -49,7 +49,7 @@
                 <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
                     <i class="fas fa-shopping-cart"></i>&nbsp;0
                 </a>
-                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว" href="profile.html">
+                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
                     <i class="fas fa-user"></i>&nbsp;{{ user }}
                 </a>
             </div>
@@ -81,33 +81,40 @@
                 </div>
             </div>
         </nav>
-        
+
         <div class="container is-max-desktop">
-            <div class="is-multiline columns is-variable is-2">
-                <!-- Start สินค้า -->
-                <div id="card_product" class="column is-one-quarter">
-                    <a href="order.html">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-1by1"><img
-                                        src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
-                                        alt="Placeholder image"></figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p id="title" class="title is-4">Google Home</p>
-                                        <p class="subtitle is-6 has-text-danger">3290 บาท</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+            <br><br>
+            <div class="columns">
+                <div class="column is-one-third">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            หน้าหลัก
+                        </p>
+                        <ul class="menu-list">
+                            <li><a href="profile.html">หน้าหลัก</a></li>
+                            <li><a href="changpass.html">แก้ไขรหัส</a></li>
+                        </ul>
+                        <p class="menu-label">
+                            ประวัติ
+                        </p>
+                        <ul class="menu-list">
+                            <li><a href="history.html">ประวัติการซื้อ</a></li>
+                        </ul>
+                    </aside>
                 </div>
-                <!-- End สินค้า -->
+                <div class="column is-two-thirds notification is-primary is-light">
+                    <div class="message-header">
+                        <p>ข้อมูล</p>
+                    </div>
+                    <br>
+                    <div class="column is-full">
 
+                        ฟหก
 
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <br>

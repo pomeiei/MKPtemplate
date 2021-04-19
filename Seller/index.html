@@ -45,26 +45,31 @@
 <body>
     <div class="container">
 
-
-
         <div class="navbar-menu">
             <div class="navbar-start">
                 <!-- navbar items -->
-                <a class="navbar-item mininav">
-                    Buyer
-                </a>
+                
             </div>
 
             <div class="navbar-end">
                 <!-- navbar items -->
-                <a class="navbar-item mininav">
+                <a class="navbar-item mininav" href="help.html">
                     help
                 </a>
-                <a class="navbar-item mininav">
+                <a class="navbar-item mininav" href="../index.html">
+                    Buyer
+                </a>
+                <a class="navbar-item mininav" href="signin.html">
                     Sign in
                 </a>
-                <a class="navbar-item mininav">
+                <a class="navbar-item mininav" href="register.html">
                     Register
+                </a>
+                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
+                    <i class="fas fa-shopping-cart"></i>&nbsp;0
+                </a>
+                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
+                    <i class="fas fa-user"></i>&nbsp;ชื่อ
                 </a>
             </div>
         </div>
