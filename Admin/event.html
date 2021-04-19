@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mininav {
+            font-size: 12.5px;
+        }
+
+        .aligncenter {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        .w3-left,
+        .w3-right,
+        .w3-badge {
+            cursor: pointer
+        }
+
+        .w3-badge {
+            height: 13px;
+            width: 13px;
+            padding: 0
+        }
+
+        .is-detail {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <!-- navbar items -->
+                
+            </div>
+
+            <div class="navbar-end">
+                <!-- navbar items -->
+                <a class="navbar-item mininav" href="help.html">
+                    help
+                </a>
+                <a class="navbar-item mininav" href="../index.html">
+                    Buyer
+                </a>
+                <a class="navbar-item mininav" href="signin.html">
+                    Sign in
+                </a>
+                <a class="navbar-item mininav" href="register.html">
+                    Register
+                </a>
+                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
+                    <i class="fas fa-shopping-cart"></i>&nbsp;0
+                </a>
+                <a class="navbar-item mininav" v-if="loginและregisterเรียบร้อยแล้ว">
+                    <i class="fas fa-user"></i>&nbsp;ชื่อ
+                </a>
+            </div>
+        </div>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+
+        </nav>
+
+
+
+        <div class="container is-max-desktop">
+            <br><br>
+            <div class="columns">
+                <div class="column is-one-third">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            จัดการ
+                          </p>
+                        <ul class="menu-list">
+                            <li><a href="index.html">จัดการร้าน</a></li>
+                            <li><a href="event.html">จัดการกิจกรรม</a></li>
+                            <li><a href="ads.html">จัดการโฆษณา</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column is-two-thirds notification is-primary is-light">
+                    <div class="message-header">
+                        <p>จัดการกิจกรรม</p>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>MarketPlace</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</body>
+
+</html>
