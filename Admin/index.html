@@ -48,7 +48,7 @@
         <div class="navbar-menu">
             <div class="navbar-start">
                 <!-- navbar items -->
-                
+
             </div>
 
             <div class="navbar-end">
@@ -99,11 +99,10 @@
                     <aside class="menu">
                         <p class="menu-label">
                             จัดการ
-                          </p>
+                        </p>
                         <ul class="menu-list">
                             <li><a href="index.html">จัดการร้าน</a></li>
                             <li><a href="event.html">จัดการกิจกรรม</a></li>
-                            <li><a href="ads.html">จัดการโฆษณา</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -112,6 +111,44 @@
                         <p>จัดการร้าน</p>
                     </div>
                     <br>
+                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth"
+                        style="width: 100%;">
+                        <!-- Your table content -->
+                        <tbody>
+                            <tr>
+                                <th>1</th>
+                                <td style="width: 25%;">ชื่อร้าน</td>
+                                <td style="width: 25%;">Report : 0</td>
+                                <td style="width: 25%;"><button class="button is-warning">ยืนยันตัวตน</button><button
+                                        class="button is-warning" disabled>ยืนยันตัวตนสำเร็จ</button></td>
+                                <td style="width: 25%;"><button class="button is-danger">ลบร้านค้า</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">ยืนยันตัวตน</p>
+                                <button class="delete" aria-label="close"></button>
+                            </header>
+                            <section class="modal-card-body">
+                                <!-- Content ... -->
+                                <center>
+                                    <img src="https://www.snnleasing.com/images/credit/namecard.png">
+                                    <p>เลขบัตรประชาชน : {{ ID-Card }}</p>
+                                    <p>เลขหลังบัตร : {{ Back-ID-Card }}</p>
+                                    <p>วันเกิด : {{ birthday }}</p>
+                                    <p>ที่อยู่ : {{ Address }}</p>
+                                </center>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <button class="button is-success">ยืนยัน</button>
+                                <button class="button">ปฎิเสธ</button>
+                            </footer>
+                        </div>
+                    </div>
                 </div>
 
             </div>
