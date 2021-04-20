@@ -111,8 +111,42 @@
                     </div>
                     <br>
                     <div class="column is-full">
-
-                        ฟหก
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <figure class="image is-128x128">
+                                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                                </figure>
+                            </div>
+                            <div class="column is-one-third">
+                                <p>Name : xxxx</p>
+                                <p>LastName : xxxx</p>
+                                <p>Phone : 000-000-0000</p>
+                                <p>Username : xxxx</p>
+                                <br>
+                                <button class="button is-warning">แก้ไขข้อมูล</button>
+                            </div>
+                        </div>
+                        
+                        <div class="modal">
+                            <div class="modal-background"></div>
+                            <div class="modal-card">
+                              <header class="modal-card-head">
+                                <p class="modal-card-title">แก้ไขข้อมูล</p>
+                                <button class="delete" aria-label="close"></button>
+                              </header>
+                              <section class="modal-card-body">
+                                <!-- Content ... -->
+                                <input class="input" type="text" placeholder="Name"><br><br>
+                                <input class="input" type="text" placeholder="LastName"><br><br>
+                                <input class="input" type="text" placeholder="Phone"><br><br>
+                                <input class="input" type="text" placeholder="Username" disabled>
+                              </section>
+                              <footer class="modal-card-foot">
+                                <button class="button is-success">บันทึก</button>
+                                <button class="button">ยกเลิก</button>
+                              </footer>
+                            </div>
+                          </div>
 
                     </div>
                 </div>
