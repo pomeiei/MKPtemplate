@@ -86,43 +86,59 @@
         </nav>
 
         <div class="container is-max-desktop">
-            <table class="table is-narrow"
-                            style="width: 100%; background-color: #72f0e7;">
-                            <!-- Your table content -->
-                            <tbody>
-                                <tr>
-                                    <td style="width: 25%; text-align: center;">{{ชื่อร้าน}}</td>
-                                    <td style="width: 25%; text-align: center;">สถานะร้าน : เปิด/ปิด</td>
-                                    <td style="width: 25%; text-align: center;">จำนวนสินค้า : x</td>
-                                    <td style="width: 25%; text-align: center;">จำนวนคำสั่งซื้อ : x</td>
-                                </tr>
-                            </tbody>
-                        </table>
-            <div class="is-multiline columns is-variable is-2">
-                <!-- Start สินค้า -->
+            <div class="columns">
                 <div class="column is-one-quarter">
-                    <a href="order.html">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-1by1"><img
-                                        src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
-                                        alt="Placeholder image"></figure>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                ชื่อร้าน xxxx
+                            </p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-2by2">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                    alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                              <p><font size="2">เปิดร้านเมื่อ : xx/xx/xxxx</font></p>
+                              <p><font size="2">สถานะร้าน : เปิด/ปิด</font></p>
+                              <p><font size="2">จำนวนสินค้า : x</font></p>
+                              <p><font size="2">จำนวนคำสั่งซื้อ : x</font></p>
                             </div>
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p id="title" class="title is-4">Google Home</p>
-                                        <p class="subtitle is-6 has-text-danger">3290 บาท</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="column is-three-quarters">
+                    <div class="is-multiline columns is-variable is-2">
+
+                        <!-- Start สินค้า -->
+                        <div class="column is-one-third">
+                            <a href="order.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-1by1"><img
+                                                src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                                                alt="Placeholder image"></figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p id="title" class="title is-4">Google Home</p>
+                                                <p class="subtitle is-6 has-text-danger">3290 บาท</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
+                        <!-- End สินค้า -->
+
+                    </div>
                 </div>
-                <!-- End สินค้า -->
-
-
             </div>
+
         </div>
 
         <br>
